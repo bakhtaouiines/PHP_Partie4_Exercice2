@@ -1,5 +1,4 @@
 <?php
-        $string = 'Voici une chaîne de caractères';
         function stringFunction($string) : string 
         {
         return stringFunction($string);
@@ -15,6 +14,6 @@
 </head>
 <body>
     <h1>Exercice 2 Partie 4 : Les fonctions PHP</h1>
-    <p><?=$string;?></p>
+    <p><?='Voici une chaîne de caractères'?></p>
 </body>
 </html>
