@@ -1,7 +1,7 @@
 <?php
         function stringFunction($string) : string 
         {
-        return stringFunction($string);
+        return "Voici une chaîne de caractères: $string";
         }
 ?>
 <!DOCTYPE html>
@@ -14,6 +14,6 @@
 </head>
 <body>
     <h1>Exercice 2 Partie 4 : Les fonctions PHP</h1>
-    <p><?='Voici une chaîne de caractères'?></p>
+    <p><?= stringFunction("Gandalf")?></p>
 </body>
 </html>
